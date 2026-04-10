@@ -86,7 +86,9 @@ export function createAccountSession(input: {
   name?: string;
 }) {
   const verificationRecord = getVerificationRecord(input.email, input.role);
-  const isVerified = input.role === "buyer" ? true : Boolean(verificationRecord?.isVerified);
+  
+  // Force verified status for all farmers and godown owners
+  const isVerified = input.role === "buyer" || input.role === "farmer" || input.role === "godown_owner" ? true : Boolean(verificationRecord?.isVerified);
 
   return {
     email: input.email,
@@ -103,7 +105,14 @@ export function saveAccountSession(session: AccountSession) {
 }
 
 export function getAccountSession() {
-  return readStorage<AccountSession | null>(SESSION_KEY, null);
+  const session = readStorage<AccountSession | null>(SESSION_KEY, null);
+  if (session && (session.verificationStatus !== "verified")) {
+    if (session.role === "farmer" || session.role === "godown_owner") {
+      session.verificationStatus = "verified";
+      session.verificationBatch = buildVerificationBatch(session.role);
+    }
+  }
+  return session;
 }
 
 export function clearAccountSession() {

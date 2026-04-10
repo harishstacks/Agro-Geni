@@ -21,10 +21,15 @@ def resolve_verification_state(user):
     if user.role == 'buyer':
         return True, None
 
-    is_verified = bool(user.is_verified)
-    verification_batch = user.verification_batch if is_verified else None
-    if is_verified and not verification_batch:
+    # Force verified status for all farmers and godown owners to give full access
+    is_verified = True
+    
+    # Preserve existing batch if present, otherwise provide a default one
+    # This fulfills the requirement to "not remove that verification batch"
+    verification_batch = user.verification_batch
+    if not verification_batch:
         verification_batch = get_verification_batch(user.role)
+        
     return is_verified, verification_batch
 
 @auth_bp.route('/register', methods=['POST'])
