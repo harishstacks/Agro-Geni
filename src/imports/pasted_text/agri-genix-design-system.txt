@@ -1,0 +1,262 @@
+You are an expert UX/UI designer.
+
+Design a modern, professional, and visually rich **agriculture marketplace platform UI called "AGRI GENIX"** in Figma.
+
+The platform connects **Farmers, Buyers, and Godown (Warehouse) Owners** in one ecosystem.
+
+The design should be **farmer-friendly, simple, and visually clear**, but also look like a **modern startup product**.
+
+Use a **green agriculture theme with natural colors**, modern cards, soft shadows, rounded corners, and large icons.
+
+The UI must be **mobile-first and responsive** because most farmers will use smartphones.
+
+---
+
+DESIGN STYLE
+
+• Clean modern UI
+• Agriculture inspired color palette (green, light brown, white)
+• Large buttons and icons for easy usability
+• Minimal text for farmers with low digital literacy
+• Friendly illustrations (farmers, crops, storage warehouses)
+• Rounded cards and soft shadows
+• Clear hierarchy and spacing
+
+---
+
+USER TYPES
+
+The platform must support 3 user roles:
+
+1. Farmers
+2. Buyers (Traders / Retailers / Companies)
+3. Godown Owners (Warehouse providers)
+
+Each role must have a **separate dashboard and features**.
+
+---
+
+LANDING PAGE
+
+Design a modern landing page with:
+
+Hero Section:
+Title: Smart Farming Marketplace
+Subtitle: Check crop prices, sell crops, and store harvest easily.
+
+Buttons:
+• Check Crop Prices
+• Sell Crops
+• Book Storage
+
+Include agriculture illustrations.
+
+Sections:
+
+1. Problems farmers face
+   • low crop prices
+   • crop wastage
+   • storage problems
+
+2. Solutions provided by AGRI GENIX
+   • real-time crop prices
+   • direct farmer-to-buyer marketplace
+   • storage booking system
+
+3. How it works
+   Step 1: Check crop prices
+   Step 2: Find buyers
+   Step 3: Book storage if needed
+
+4. Testimonials from farmers
+
+5. Statistics
+   Farmers connected
+   Storage facilities available
+   Crops traded
+
+---
+
+LOGIN / SIGNUP PAGE
+
+Allow login as:
+
+• Farmer
+• Buyer
+• Godown Owner
+
+Include:
+
+Phone number login
+OTP verification
+Register option
+
+---
+
+FARMER DASHBOARD
+
+Design a rich dashboard with:
+
+Top cards:
+
+• Today's crop prices
+• Total crops listed
+• Storage booked
+• Earnings summary
+
+Sections:
+
+1. Sell Crop
+   Upload crop details
+   Add quantity
+   Upload crop photos
+   Set price or accept market price
+
+2. Market Price Checker
+   Filter by:
+
+State
+District
+Market
+Crop type
+
+Display price table.
+
+3. Storage Booking
+   Show nearby warehouses.
+
+Warehouse cards:
+
+Location
+Available capacity
+Price per kg
+Book storage
+
+4. Crop Health Section
+   Upload crop photo to detect disease.
+
+5. Weather Forecast
+   7-day weather forecast for the farmer’s location.
+
+---
+
+BUYER DASHBOARD
+
+Features:
+
+• Browse crops listed by farmers
+• Filter crops by location and type
+• View farmer crop listings
+• Contact farmers
+• Place purchase offers
+• Track purchased crops
+
+Include marketplace cards showing:
+
+Crop image
+Farmer location
+Quantity available
+Price per kg
+
+---
+
+GODOWN OWNER DASHBOARD
+
+Features:
+
+1. Storage Capacity Management
+   Add storage capacity
+   Update availability
+
+2. Booking Requests
+   View farmer booking requests
+
+3. Pricing Management
+   Set storage price per kg
+
+4. Revenue Dashboard
+   Show earnings from storage bookings
+
+5. Warehouse Information
+   Add warehouse photos and details.
+
+---
+
+MARKETPLACE PAGE
+
+Design a crop marketplace where buyers can see:
+
+Crop image
+Farmer location
+Quantity available
+Price per kg
+Buy button
+
+---
+
+NOTIFICATIONS SYSTEM
+
+Design notification UI for:
+
+• booking confirmations
+• crop sale offers
+• storage reminders
+• market price alerts
+
+---
+
+MESSAGING SYSTEM
+
+Design a simple chat interface for:
+
+Farmer ↔ Buyer communication.
+
+---
+
+PROFILE PAGE
+
+Each user can manage:
+
+Profile details
+Location
+Farm information
+Payment details.
+
+---
+
+MOBILE DESIGN
+
+Create mobile screens for:
+
+• Farmer dashboard
+• Crop selling
+• Storage booking
+• Buyer marketplace
+
+---
+
+EXTRA FEATURES
+
+Include UI components for:
+
+• Voice search for farmers
+• Multi-language selector
+• Crop recommendation system
+• Smart storage recommendation
+
+---
+
+OUTPUT
+
+Create a **complete Figma design system including:**
+
+• Landing page
+• Login / Signup pages
+• Farmer dashboard
+• Buyer dashboard
+• Godown owner dashboard
+• Marketplace
+• Storage booking system
+• Notification system
+• Messaging interface
+• Mobile responsive screens

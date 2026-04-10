@@ -1,0 +1,11 @@
+Flask
+Flask-PyMongo
+Flask-JWT-Extended
+bcrypt
+pymongo
+flask-cors
+prophet
+scikit-learn
+pandas
+apscheduler
+joblib
